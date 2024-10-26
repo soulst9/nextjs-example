@@ -1,0 +1,35 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "APP_ENV=local next dev",
+    "build": "next build",
+    "start": "next start -p 14000 -H 0.0.0.0",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.408.0",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-big-calendar": "^1.13.1",
+    "react-data-table-component": "^7.5.3",
+    "react-dom": "^18.3.1",
+    "react-query": "^3.39.3",
+    "rsuite": "^5.24.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:Banimani/manage.ui.git",
+  "author": "hanyoungwoo <youngsoul.banimani@gmail.com>",
+  "license": "MIT"
+}
